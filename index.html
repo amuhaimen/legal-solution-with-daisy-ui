@@ -168,7 +168,9 @@
           </p>
         </div>
         <!-- cards part -->
-        <div class="mt-16 grid grid-cols-1 md:grid-cols-3 mx-4 md:mx-0">
+        <div
+          class="mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-4 md:mx-0"
+        >
           <!-- card 1 -->
           <div
             class="card rounded-none bg-base-100 border-[#E7E7E7] border-2 border-t-0 border-l-0 py-14 px-16 hover:bg-gradient-to-t from-[#f3f3f300] to-[#F3F3F3]"
@@ -521,7 +523,7 @@
         </div>
         <div class="flex justify-center items-center">
           <div
-            class="flex items-center flex-col-reverse md:flex-row md:justify-between md:gap-8 mx-4 md:mx-0"
+            class="flex flex-col-reverse mx-4 md:flex-col-reverse lg:items-center lg:flex-row lg:justify-between lg:gap-8 lg:mx-0"
           >
             <div class="flex-1 space-y-4 mt-7 md:mt-0">
               <div class="collapse collapse-plus bg-base-200 py-8">
@@ -600,6 +602,10 @@
         </div>
       </section>
       <!-- contact section  -->
+      <!-- ========================================================================== -->
+      <!-- input width fixed kore deya ache jar karone responsive hocche na
+eta solve korte hobe -->
+      <!-- ========================================================================== -->
 
       <section class="mt-32">
         <div class="text-center">
@@ -615,7 +621,9 @@
           </p>
         </div>
         <div class="flex justify-center items-center">
-          <div class="flex flex-col md:flex-row md:items-center gap-6">
+          <div
+            class="flex flex-col md:flex-col lg:flex-row lg:items-center gap-6"
+          >
             <div class="grid grid-cols-2 text-center mx-8 md:mx-0">
               <div
                 class="card w-96 bg-[#F3F3F3] rounded-none p-14 border-[#CFCFCF] border-b-2 border-r-2"
@@ -700,39 +708,41 @@
                 </div>
               </div>
             </div>
-            <div class="space-y-8">
-              <input
-                class="block w-[570px] bg-[#F3F3F3] p-6"
-                type="text"
-                name=""
-                id=""
-                placeholder=" type your Name"
-              />
-              <input
-                class="block w-[570px] bg-[#F3F3F3] p-6"
-                type="email"
-                name=""
-                id=""
-                placeholder="type your email"
-              />
-              <input
-                class="block w-[570px] bg-[#F3F3F3] p-6"
-                type="text"
-                name=""
-                id=""
-                placeholder="type your subject"
-              />
-              <textarea
-                name=""
-                id=""
-                placeholder="Your message"
-                class="w-[570px] bg-[#F3F3F3] p-6"
-                rows="9"
-              ></textarea>
-              <a
-                class="rounded-lg text-lg font-semibold text-white bg-primary-bg py-5 px-7 block text-center"
-                >Send Massage</a
-              >
+            <div class="flex justify-center items-center">
+              <div class="space-y-8">
+                <input
+                  class="block w-[570px] bg-[#F3F3F3] p-6"
+                  type="text"
+                  name=""
+                  id=""
+                  placeholder=" type your Name"
+                />
+                <input
+                  class="block w-[570px] bg-[#F3F3F3] p-6"
+                  type="email"
+                  name=""
+                  id=""
+                  placeholder="type your email"
+                />
+                <input
+                  class="block w-[570px] bg-[#F3F3F3] p-6"
+                  type="text"
+                  name=""
+                  id=""
+                  placeholder="type your subject"
+                />
+                <textarea
+                  name=""
+                  id=""
+                  placeholder="Your message"
+                  class="w-[570px] bg-[#F3F3F3] p-6"
+                  rows="9"
+                ></textarea>
+                <a
+                  class="rounded-lg text-lg font-semibold text-white bg-primary-bg py-5 px-7 block text-center"
+                  >Send Massage</a
+                >
+              </div>
             </div>
           </div>
         </div>
